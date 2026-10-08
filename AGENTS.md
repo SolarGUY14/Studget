@@ -8,4 +8,7 @@
 - Keep financial calculations deterministic and testable.
 - Prefer backend-calculated financial values over LLM-calculated values.
 - Run relevant tests before finishing.
+- Add behavior tests for new features and bug fixes, including meaningful failure cases.
+- Explain the feature's client-to-backend flow and document manual acceptance steps.
+- Verify client changes with `npm run check` in `apps/mobile`; check web builds when relevant.
 - Do not commit or push unless explicitly asked.
