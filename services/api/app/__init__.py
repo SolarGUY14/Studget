@@ -1,0 +1,1 @@
+"""Studget API application package."""
